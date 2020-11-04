@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Counter from "components/Counter";
-import { increase, decrease, setDiff } from "module/counter";
+import { increase, decrease, setDiff } from "modules/counter";
 
 const CounterContainer = () => {
   // useSelector는 리덕스 스토어의 상태를 조회하는 Hook입니다.
